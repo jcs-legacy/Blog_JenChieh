@@ -41,8 +41,8 @@
   var searchRes = null;
 
   /* Conversion Keywords */
-  var slashKey = "_slash_";
-  var spaceKey = "_space_";
+  var slashKey = "_sl_";
+  var spaceKey = "_sp_";
 
 
   //---------------------- Functions ---------------------------//
@@ -77,8 +77,9 @@
     if (searchKeyword == "")
       return;
 
-    // Apply character conversion rule.
-    searchKeyword = searchKeyword.replace(/ /g, '-');
+    /* Conversion base on the rule. */
+    // This rule must match the server side.
+    searchKeyword = searchKeyword.replace(/ /g, spaceKey);
 
     // Load to search page.
     addParamToURL('search', searchKeyword, true);
@@ -184,7 +185,7 @@
     let selectedFilename = [];
 
     if (currentContentPage != null) {
-      selectedFilename = currentContentPage.split('-');
+      selectedFilename = currentContentPage.split(slashKey);
       selectedFilename = selectedFilename[selectedFilename.length - 1];
     }
 
@@ -192,7 +193,7 @@
     sbFile.each(function () {
       let filePath = $(this).attr('id');
 
-      let filename = filePath.split('-');
+      let filename = filePath.split(slashKey);
       filename = filename[filename.length - 1];
 
       // Found the selected file?
@@ -346,6 +347,8 @@
       }
     } else {
       contentPageName = search_content;
+
+      searchKeyword = searchKeyword.split(spaceKey).join(" ");
       searchInput.attr('value', searchKeyword);
     }
 
@@ -413,6 +416,8 @@
           let searchKeyword = getUrlParameter('search');
           if (searchKeyword != null) {
             let searchKeywordText = $('.search-keyword');
+
+            searchKeyword = searchKeyword.split(spaceKey).join(" ");
 
             searchKeywordText.text(searchKeyword);
 
@@ -529,9 +534,8 @@
       showPath = showPath.replace(/.html/g, '');
 
       /* Apply conversion rule. */
-      let urlPath = pathObj.path;
-      urlPath = urlPath.replace(/\//g, '-');
-      urlPath = urlPath.replace(/.html/g, '');
+      let urlPath = showPath.replace(/\//g, slashKey);
+      urlPath = urlPath.replace(/ /g, spaceKey);
 
       /* Here to design the HTML content for search result. */
       let resultHTML =

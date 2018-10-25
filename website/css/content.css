@@ -77,3 +77,9 @@ td:nth-child(2) {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+
+.blog-list {
+  padding: 10px;
+  padding-left: 60px;
+}

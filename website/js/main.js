@@ -61,11 +61,12 @@
   var andKey     = "_and_";  // And '&' key.
   var plusKey    = "_pl_";   // And '+' key.
   var quoteKey   = "_qt_";   // Quote ' key.
+  var exclaimKey = "_ex_";   // Exclamation mark key '!'.
 
   var periodKey  = "_pri_";  // Period '.' key.
-  var eqKey      = "_eq_";   // Equals ' =' key.
-  var cmaKey     = "_cma_";  // Comma ',' key.
-  var scKey      = "_sc_";   // Semicolon ';' key.
+  var equalKey      = "_eq_";   // Equals ' =' key.
+  var commaKey     = "_cma_";  // Comma ',' key.
+  var semicolonKey      = "_sc_";   // Semicolon ';' key.
 
 
   //---------------------- Functions ---------------------------//
@@ -601,11 +602,12 @@
       rawStr = rawStr.split(andKey).join("&");
       rawStr = rawStr.split(plusKey).join("+");
       rawStr = rawStr.split(quoteKey).join("'");
+      rawStr = rawStr.split(exclaimKey).join("!");
 
       rawStr = rawStr.split(periodKey).join(".");
-      rawStr = rawStr.split(eqKey).join("=");
-      rawStr = rawStr.split(cmaKey).join(",");
-      rawStr = rawStr.split(scKey).join(";");
+      rawStr = rawStr.split(equalKey).join("=");
+      rawStr = rawStr.split(commaKey).join(",");
+      rawStr = rawStr.split(semicolonKey).join(";");
     } else {
       rawStr = rawStr.replace(/\//g, slashKey);
       rawStr = rawStr.replace(/ /g, spaceKey);
@@ -627,11 +629,12 @@
       rawStr = rawStr.replace(/\&/g, andKey);
       rawStr = rawStr.replace(/\+/g, plusKey);
       rawStr = rawStr.replace(/\'/g, quoteKey);
+      rawStr = rawStr.replace(/\!/g, exclaimKey);
 
       rawStr = rawStr.replace(/\./g, periodKey);
-      rawStr = rawStr.replace(/\=/g, eqKey);
-      rawStr = rawStr.replace(/\,/g, cmaKey);
-      rawStr = rawStr.replace(/\;/g, scKey);
+      rawStr = rawStr.replace(/\=/g, equalKey);
+      rawStr = rawStr.replace(/\,/g, commaKey);
+      rawStr = rawStr.replace(/\;/g, semicolonKey);
     }
     return rawStr;
   }

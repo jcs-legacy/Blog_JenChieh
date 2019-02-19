@@ -13,7 +13,7 @@
 // Manual config.
 const blog_name = "Jen-Chieh";
 
-const announcement_text = "Welcome to Jen-Chieh's Blog!!!~~~";
+const announcement_text = "Welcome to Jen-Chieh's Blog...";
 
 // Copyright text to show on the website.
 const copyright_text = "Copyright © 2018 Jen-Chieh Shen. Built: 2018-10-23.";

@@ -46,20 +46,35 @@
   <table>
     <tr>
       <td>1.</td>
-      <td>繞圓圈行為</td>
+      <td>Circle Action</td>
     </tr>
     <tr>
       <td>2.</td>
-      <td>震動效果</td>
+      <td>Shake Effect</td>
     </tr>
     <tr>
       <td>3.</td>
-      <td>上下搖擺效果 (Cosine Wave)</td>
+      <td>Wave Action</td>
     </tr>
   </table>
 
   <br/><br/>
-  Desc..
+  Above example scripts are all self-runnable without any dependencies and will not influence to each other scripts. Base on this design patterns, how many unique behaviours if we make all these scripts interact with each other?
   <br/><br/>
+
+  <div class="code-block">
+    7 behaviours = 3 basic behaviours +
+                   (Circle Action + Shake Effect) +
+                   (Circle Action + Wave Action) +
+                   (Shake Effect + Wave Effect) +
+                   (Circle Action + Shake Effect + Wave Action)
+  </div>
+
+  <br/>
+
+
+
+  <br/><br/><br/>
+  <h2>腳本上的設計:</h2><br/>
 
 </p>

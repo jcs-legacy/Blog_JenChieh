@@ -34,7 +34,7 @@ const homepage_text = "www.jcs-profile.com";  // Text to show on the browser
 // config file.
 //
 // SEE : confid.js in the project root directory.
-const content_extension = '.html';
+const content_extension = '.md';
 
 // Search Input config
 const si_blog_placeholder = "Search blog...";

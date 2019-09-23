@@ -1,13 +1,3 @@
-<!--
-   - $File: Framework I have been working -Part 2-.html $
-   - $Date: 2018-10-24 01:28:17 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>Framework I have been working - Part 2-</h1>
 </div>

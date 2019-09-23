@@ -1,14 +1,3 @@
-<!--
-   - $File: Programming In Game - 遊戲裡的編程.html $
-   - $Date: 2019-02-19 20:44:38 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
--->
-
-
-
 <div id="content-header">
   <h1>Programming In Game - 遊戲裡的編程</h1>
 </div>

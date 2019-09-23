@@ -1,13 +1,3 @@
-<!--
-   - $File: Unity Engine Framework -JCSUnity-.html $
-   - $Date: 2019-02-12 07:42:04 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>Unity Engine Framework -JCSUnity-</h1>
 </div>

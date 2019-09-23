@@ -1,13 +1,3 @@
-<!--
-   - $File: Parallax Website - 視差網站.html $
-   - $Date: 2019-02-12 07:43:52 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>Parallax Website - 視差網站</h1>
 </div>

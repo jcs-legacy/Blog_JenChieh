@@ -1,13 +1,3 @@
-<!--
-   - $File: Art, Design, Programming - 美術, 設計, 程式.html $
-   - $Date: 2019-02-19 21:55:21 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>Art, Design, Programming - 美術, 設計, 程式</h1>
 </div>

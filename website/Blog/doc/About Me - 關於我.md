@@ -1,13 +1,3 @@
-<!--
-   - $File: About Me - 關於我.html $
-   - $Date: 2019-02-19 16:52:19 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>About Me - 關於我</h1>
 </div>

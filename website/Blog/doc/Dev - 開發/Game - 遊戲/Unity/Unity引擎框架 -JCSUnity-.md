@@ -1,6 +1,4 @@
-<div id="content-header">
-  <h1>Unity引擎框架 -JCSUnity-</h1>
-</div>
+# Unity引擎框架 -JCSUnity-
 
 <p>
   <b>JCSUnity Repo</b> :
@@ -84,8 +82,8 @@
   腳本上要求這樣高自由度, 難免會需要一個共同的規範. 畢竟不可能所有的一個獨立運行腳本就有一個自己的規範, 那不就天下大亂了? 我選擇善加使用Header屬性, 再加上一些自己規定的專有名詞來達成這項任務.
   <br/><br/>
 
-  <div class="code-block">
-    #if UNITY_EDITOR
+```cs
+#if UNITY_EDITOR
 
     [Header("** Helper Variables (JCS_ExampleScript) **")]
 
@@ -94,7 +92,7 @@
     /// -<-/summary->-
     float helperVar = 0.0f;
 
-    #endif
+#endif
 
 
     [Header("** Check Variables (JCS_ExampleScript) **")]
@@ -119,7 +117,7 @@
     /// 遊戲運行階段會受到影響.
     /// -<-/summary->-
     float rtVar = 0.0f;
-  </div>
+```
 
   <br/>
   官方說明請看,

@@ -1,6 +1,4 @@
-<div id="content-header">
-  <h1>Unity Engine Framework -JCSUnity-</h1>
-</div>
+# Unity Engine Framework -JCSUnity-
 
 <p>
   <b>JCSUnity Repo</b> :
@@ -88,8 +86,8 @@
   Having the script design this way, there should be a script principle so people could contribute or extend to the project easier. I chose to use 'Header' attribute to accomplish this task and here are the definition of all the terminology in JCSUnity.
   <br/><br/>
 
-  <div class="code-block">
-    #if UNITY_EDITOR
+```cs
+#if UNITY_EDITOR
 
     [Header("** Helper Variables (JCS_ExampleScript) **")]
 
@@ -98,7 +96,7 @@
     /// -<-/summary->-
     float helperVar = 0.0f;
 
-    #endif
+#endif
 
 
     [Header("** Check Variables (JCS_ExampleScript) **")]
@@ -123,7 +121,7 @@
     /// Variable will work on both initialize time and runtime, you can adjust the variable during runtime and see the effect.
     /// -<-/summary->-
     float rtVar = 0.0f;
-  </div>
+```
 
   <br/>
   For more information, you can click

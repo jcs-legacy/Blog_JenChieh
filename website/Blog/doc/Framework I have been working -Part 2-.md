@@ -1,72 +1,45 @@
-<div id="content-header">
-  <h1>Framework I have been working - Part 2-</h1>
-</div>
+# Framework I have been working - Part 2-
 
 <div class="panel-text-left">
-  <p>
-    At the 'Framework I have been working... (Part 1)', I have talked about the reasons why I started writing tools and libraries. At this time, one of my instructor
-    <a href="https://www.linkedin.com/in/billylemonzest/" target="_blank">
-      Billy Garban
-    </a>
-    from Academy of Art University suggests me to watch
-    <a href="https://www.youtube.com/user/handmadeheroarchive" target="_blank">
-      Handmade Hero
-    </a>
-    series that host by
-    <a href="https://twitter.com/cmuratori" target="_blank">
-      Casey Muratori
-    </a>
+At the 'Framework I have been working... (Part 1)', I have talked about the
+reasons why I started writing tools and libraries. At this time, one of my
+instructor
+[Billy Garban](https://www.linkedin.com/in/billylemonzest/)
+from Academy of Art University suggests me to watch
+[Handmade Hero](https://www.youtube.com/user/handmadeheroarchive)
+series that host by
+[Casey Muratori](https://twitter.com/cmuratori)
+. I have watched a few episodes what make me impressive is how he can teach
+people in such a way that everyone could understand, including me. I like
+when he talks about what makes him special is his productivity to the
+company. (I will discuss a bit more 'productivity' in another post.) This
+changes me think differently instead of just thinking about algorithm and
+data structure. What makes you different than other programmers?
 
+Then I realize, being productive is important and advance as a programmer.
+Then I figure out that how to make myself productive as much as possible
+is to write your own tool. The reason is simple, the majority of people
+that are not programmer might think of the most time programmer did is
+to type the program itself, but I believe this is a huge mistake. In fact,
+the time spending on thinking is way more than time spent on actually typing.
+So writing your own tool is saving your time when you think.
 
-    . I have watched a few episodes what make me impressive is how he can teach people in such a way that everyone could understand, including me. I like when he talks about what makes him special is his productivity to the company. (I will discuss a bit more 'productivity' in another post.) This changes me think differently instead of just thinking about algorithm and data structure. What makes you different than other programmers?
-  </p>
+Here is a list of some frameworks or libraries that I have created for my
+own use during my college years. All of them have a different purpose, and
+some of them were written in various programming language. These are also
+the evidence that these tools did save me a lot of time when doing my school
+work. Think back in the past, when I start the project from scratch I nearly
+will have to keep my eyes on the project all the time. But I after I have made
+my framework 'JCSUnity' I hardly dot not have to do any school work anymore.
 
-  <p>
-    Then I realize, being productive is important and advance as a programmer. Then I figure out that how to make myself productive as much as possible is to write your own tool. The reason is simple, the majority of people that are not programmer might think of the most time programmer did is to type the program itself, but I believe this is a huge mistake. In fact, the time spending on thinking is way more than time spent on actually typing. So writing your own tool is saving your time when you think.
-  </p>
+### JCSCos2x
+* **URL:** https://github.com/jcs090218/JCSCos2x_Lib_src
 
-  <p>
-    Here is a list of some frameworks or libraries that I have created for my own use during my college years. All of them have a different purpose, and some of them were written in various programming language. These are also the evidence that these tools did save me a lot of time when doing my school work. Think back in the past, when I start the project from scratch I nearly will have to keep my eyes on the project all the time. But I after I have made my framework 'JCSUnity' I hardly dot not have to do any school work anymore.
-  </p>
+### JCSLOVELua
+* **URL:** https://github.com/jcs090218/JCSLOVELua_Framework
 
-  <div class="padding-left-20">
-    <br/>
-    <h3>* JCSCos2x *</h3>
-    <div class="single-url">
-      url:
-      <a href="https://github.com/jcs090218/JCSCos2x_Lib_src" target="_blank">
-        https://github.com/jcs090218/JCSCos2x_Lib_src
-      </a>
-    </div>
+### JCSPyGm_Lib
+* **URL:** https://github.com/jcs090218/JCSPyGm_Lib
 
-    <br/>
-    <h3>* JCSLOVELua *</h3>
-    <div class="single-url">
-      url:
-      <a href="https://github.com/jcs090218/JCSLOVELua_Framework" target="_blank">
-        https://github.com/jcs090218/JCSLOVELua_Framework
-      </a>
-    </div>
-
-    <br/>
-    <h3>* JCSPyGm_Lib *</h3>
-    <div class="single-url">
-      url:
-      <a href="https://github.com/jcs090218/JCSPyGm_Lib" target="_blank">
-        https://github.com/jcs090218/JCSPyGm_Lib
-      </a>
-    </div>
-
-
-    <br/>
-    <h3>* JCSUnity *</h3>
-    <div class="single-url">
-      url:
-      <a href="https://github.com/jcs090218/JCSUnity_Framework" target="_blank">
-        https://github.com/jcs090218/JCSUnity_Framework
-      </a>
-    </div>
-  </div>
-
-  <br/>
-</div>
+### JCSUnity
+* **URL:** https://github.com/jcs090218/JCSUnity_Framework

@@ -1,13 +1,3 @@
-<!--
-   - $File: Best Editor Ever - 最好的編輯器.html $
-   - $Date: 2018-10-24 00:14:26 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>Best Editor Ever - 最好的編輯器</h1>
 </div>

@@ -13,6 +13,9 @@
 // Manual config.
 const blog_name = "Jen-Chieh";
 
+const header_color = '#2B4D4D';
+const arrow_color = '#19E3B1';
+
 const announcement_text = "Welcome to Jen-Chieh's Blog...";
 
 // Copyright text to show on the website.

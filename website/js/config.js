@@ -9,28 +9,28 @@
 
 "use strict";
 
-// Manual
+/* Manual */
 const blog_name = "Jen-Chieh";
 
-// Theme
+/* Theme */
 const header_color = '#2B4D4D';
-const arrow_color = '#19E3B1';
-const th_color = '#A2F2DE';
+const arrow_color  = '#19E3B1';
+const th_show      = true;       // table header
+const th_color     = '#A2F2DE';  // table header color
 
-// Announcement
+/* Announcement */
 const announcement_text = "Welcome to Jen-Chieh's Blog...";
 
-// Copyright text to show on the website.
+/* Copyright */
 const copyright_text = "Copyright © 2018 Jen-Chieh Shen. Built: 2018-10-23.";
 
-// Default content page.
-const intro_content = 'intro';
-// Search page.
-const search_content = 'search';
+/* Others */
+const intro_content  = 'intro';   // Default content page.
+const search_content = 'search';  // Search page.
 
-// Homepage Link
-const homepage_url = "http://www.jcs-profile.com/";  // The actual link to your homepage.
-const homepage_text = "www.jcs-profile.com";  // Text to show on the browser
+/* Homepage Link */
+const homepage_url  = "http://www.jcs-profile.com/";  // Link to your homepage.
+const homepage_text = "www.jcs-profile.com";          // Text represent your homepage.
 
 
 // Content extension to load.
@@ -41,7 +41,7 @@ const homepage_text = "www.jcs-profile.com";  // Text to show on the browser
 // SEE : confid.js in the project root directory.
 const content_extension = '.md';
 
-// Search Input config
+/* Search Input Text */
 const si_blog_placeholder = "Search blog...";
 
 const si_input_size = 17;  // character unit.

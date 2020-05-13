@@ -9,13 +9,15 @@
 
 "use strict";
 
-
-// Manual config.
+// Manual
 const blog_name = "Jen-Chieh";
 
+// Theme
 const header_color = '#2B4D4D';
 const arrow_color = '#19E3B1';
+const th_color = '#A2F2DE';
 
+// Announcement
 const announcement_text = "Welcome to Jen-Chieh's Blog...";
 
 // Copyright text to show on the website.

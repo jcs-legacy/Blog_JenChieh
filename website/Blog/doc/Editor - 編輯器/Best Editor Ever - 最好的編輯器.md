@@ -46,7 +46,7 @@ is wasting your time and is not worth it anymore.
 
 ### * My emacs file config repo *
 
-* **url:** https://github.com/jcs090218/jcs-emacs-init
+* **url:** https://github.com/jcs090218/jcs-emacs
 
 ### * Few Videos I watched when I learn Emacs *
 

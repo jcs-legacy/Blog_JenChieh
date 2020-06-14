@@ -3,9 +3,9 @@
 Precisely that I am neither an Emacs nor Vim expert. I am 
 just an amateur that knows about the two editors with just 
 amount of knowledge. If you check out two of my
-[Emacs](https://github.com/jcs090218/jcs-emacs-init)
+[Emacs](https://github.com/jcs090218/jcs-emacs)
 and
-[Vim](https://github.com/jcs090218/jcs-vim-init)
+[Vim](https://github.com/jcs090218/jcs-vim)
 repo, this could be the worst experience of all time. I hold 
 onto an idea that the editors are just a tool. Unless there 
 are issues that hamper or paster my workflow, I will avoid 
@@ -15,9 +15,9 @@ either Emacs over Vim or Vim over Emacs.
 
 實際上,我並不是個Emacs或Vim專家.我只是單純剛好在這兩個編輯器上面都有些了解. 
 如果你查看我的兩個
-[Emacs](https://github.com/jcs090218/jcs-emacs-init)
-或
-[Vim](https://github.com/jcs090218/jcs-vim-init)
+[Emacs](https://github.com/jcs090218/jcs-emacs)
+和
+[Vim](https://github.com/jcs090218/jcs-vim)
 的repo,那可能是最糟的經驗. 我秉持著一個想法, 那就是編輯器對我只是個工具. 
 在我對於我的工具不滿意的時候我才會選擇去修改我的工具. 不是很必要的我就不會
 特地去強求. 畢竟我不是要再造一個輪子,也沒打算讓Emacs或Vim分個高下.
